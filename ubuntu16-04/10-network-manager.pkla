@@ -1,0 +1,14 @@
+[Let foo modify system settings for network]
+Identity=unix-group:usuarios
+Action=org.freedesktop.NetworkManager.settings.modify.system
+ResultAny=no
+ResultInactive=no
+ResultActive=yes
+
+[Do not allow foo to enable/disable networking]
+Identity=unix-group:usuarios
+Action=org.freedesktop.NetworkManager.settings.enable-disable-network
+ResultAny=no
+ResultInactive=no
+ResultActive=no
+

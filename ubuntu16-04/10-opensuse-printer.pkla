@@ -1,0 +1,6 @@
+[Print addirion, renoval]
+Identity=unix-group:usuarios
+Action=org.opensuse.cupspkhelper.mechanism.*
+ResultAny=no
+ResultInactive=no
+ResultActive=yes
